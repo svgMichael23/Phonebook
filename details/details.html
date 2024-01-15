@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="../index.css" type="text/css" />
+  <link rel="stylesheet" href="./style.css" type="text/css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Contact</title>
+  </head>
+  <body>
+    <header>
+      <a href="../index.html">Phonebook</a>
+      <div class="page-list">
+        <a href="../index.html">Home</a>
+        <a href="#">Add contact</a>
+      </div>
+    </header>
+    <div class="page">
+      <p class="page-title">
+        <img
+          src="../user.png"
+          style="height: 20px; width: auto; margin-right: 10px"
+        />
+        Contact Details
+      </p>
+
+      <div class="contact-info">
+        <h2 class="name"></h2>
+        <p class="email"></p>
+        <p class="phone"></p>
+      </div>
+
+      <div class="button-group">
+        <button class="cancel-btn" id="delete-btn">Delete</button>
+        <button class="edit-btn" id="edit-btn">Edit</button>
+      </div>
+    </div>
+    <script src="./details.js"></script>
+  </body>
+</html>

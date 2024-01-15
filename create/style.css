@@ -1,0 +1,27 @@
+.button-group {
+  display: flex;
+  gap: 20px;
+}
+
+.input-container {
+  display: grid;
+  grid-template-columns: 110px 200px;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.cancel-btn {
+  background-color: darkred;
+  color: white;
+}
+.submit-btn {
+  background-color: darkgreen;
+  color: white;
+}
+.page-title {
+  text-align: center;
+}
+form {
+  max-width: 400px;
+  margin: auto;
+}
